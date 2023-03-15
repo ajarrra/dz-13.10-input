@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    border: 3px dotted gray;
+    background-color: palevioletred;
+    padding-right: 5px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: medium;
+
+}
+body{
+    background-color: rgb(238, 231, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    margin-bottom: 100px;
+    
+    text-align: center;
+}
+.form{
+width: 200px;
+text-align: left;
+padding: 30px;
+
+}
+
+.form input[type=text], 
+.form input[type=email],
+.form input[type=password],
+.form input[type=tell],
+.form input[type=month],
+.form input[type=number]
+{
+    border: 0;
+    box-shadow: 0 0 15px 4px grey;
+    margin: 15px;
+}
+.form input[type=radio]{
+    border: 0;
+    box-shadow: 0px 0px 10px palevioletred;
+}
+.form input[type=file]{
+ box-shadow: 0 0 20px 5px red;    
+}
+.form textarea{
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50px;
+    border: 3px dashed palevioletred;
+    margin-bottom: 30px;
+}
+.form button[type=submit]{
+    text-align: center;
+    box-shadow: 0 0 20px 5px gainsboro;
+    margin-bottom: 100px;
+}
+p{
+    color: black;
+    box-shadow: 5px 5px 10px palevioletred , -5px -5px 10px rgb(185, 114, 137), 5px -5px 10px rgb(255, 126, 169), -5px 5px 10px rgb(189, 63, 105);
+    border: none ;
+}
+
+
+.p-2{
+    border: none;
+    box-shadow: none;
+    color: red;
+    
+}
+.form-2 input[type=text]{
+    margin-bottom: 15px;
+  
+}
+.gender{
+    border: none;
+    box-shadow: none;
+    display: inline; 
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+.form-2 input[type=radio]{
+ display: inline;
+ box-shadow: 0 0 10px 5px gainsboro;
+ border: none;
+ padding: 0;
+ margin: 0;
+}
+.form-2 input[type=tell]{
+ margin: 15px;
+}
+.form-2 textarea{
+    border: none;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+.form-2 button[type=submit]{
+    color: red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 0 0 10px 2px red;
+    border-radius: 15px;
+}
